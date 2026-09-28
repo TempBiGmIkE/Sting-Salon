@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/header";
@@ -21,8 +22,8 @@ const bricolageFont = Bricolage_Grotesque({
 
 export const metadata: Metadata = {
   title: {
-    default: "Sattis Studio - Barbearia, Tattoo, Estética e Piercings",
-    template: "%s | Sattis Studio",
+    default: "Sting Studio - Barbearia, Tattoo, Estética e Piercings",
+    template: "%s | Sting Studio",
   },
   description: "Barbearia, Tattoo, Estética e Piercings",
   keywords: [
@@ -36,9 +37,9 @@ export const metadata: Metadata = {
     "tatuador Porto",
     "salão beleza Porto",
   ],
-  authors: [{ name: "Sattis Studio" }],
-  creator: "Sattis Studio",
-  publisher: "Sattis Studio",
+  authors: [{ name: "Sting Studio" }],
+  creator: "Sting Studio",
+  publisher: "Sting Studio",
   robots: {
     index: true,
     follow: true,
@@ -60,12 +61,28 @@ export default function RootLayout({
   return (
     <html lang="pt-PT">
       <head>
-        <link rel="canonical" href="https://sattis.me" />
+        <link rel="canonical" href="https://Sting.me" />
+        <Script
+          id="setmore-book-now-script"
+          src="https://assets.setmore.com/integration/book-now/live/v1/anywhere-book-now.js"
+          strategy="beforeInteractive"
+        />
       </head>
       <body
         className={`${bricolageFont.variable} antialiased`}
         suppressHydrationWarning
       >
+        <button
+          id="Anywhere_button_iframe"
+          type="button"
+          className="sr-only anywhere-book-now-button"
+          data-booking-url="https://stgsaloon.setmore.com"
+          data-new-tab="false"
+          aria-hidden="true"
+          tabIndex={-1}
+        >
+          Book now
+        </button>
         <ConsentManagerProvider
           options={{
             mode: "c15t",

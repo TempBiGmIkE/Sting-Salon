@@ -76,7 +76,7 @@ export default function ServiceStep({
                 key={"colour-service-01"}
                 className={`py-12 px-4 bg-gray-900 text-foreground rounded-md border border-border hover:bg-accent hover:text-accent-foreground`}
               >
-                <Link href={"https://wa.me/351915003454"} target="_blank" className="w-full flex flex-col gap-2 items-start">
+                <Link href={"https://wa.link/n1x966"} target="_blank" className="w-full flex flex-col gap-2 items-start">
                   <div className="flex flex-col items-start gap-2">
                     <div className="text-md text-wrap text-start line-clamp-2">Coloração</div>
                     <div className="text-[10px] font-light">

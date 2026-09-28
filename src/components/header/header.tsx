@@ -3,7 +3,7 @@
 import Image from "next/image";
 import MobileNav from "./mobileNav";
 
-import logo from "@/logos/sattis-logo_wb.png";
+import logo from "@/logos/Sting-logo_wb.png";
 import DesktopNav from "./desktopNav";
 import { Suspense } from "react";
 import { LocaleSwitcher } from "./localeSwitcher";
@@ -14,7 +14,7 @@ export default function Header() {
     <header className="w-full px-8 py-8 md:px-16 md:py-11 flex items-center justify-between bg-transparent absolute z-20">
       <div>
         <Link href={"/"}>
-          <Image src={logo} alt="Sattis studio" width={100} />
+          <Image src={logo} alt="Sting studio" width={100} />
         </Link>
       </div>
       <div className="hidden md:flex items-center gap-8">

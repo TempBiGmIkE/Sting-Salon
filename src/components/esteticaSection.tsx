@@ -117,7 +117,7 @@ export default function EsteticaSection() {
                 variant="outline"
                 className="mt-5 text-md border-black text-black cursor-pointer"
               >
-                <Link href={"https://wa.me/351913534380"} target="_blank">
+                <Link href={"https://wa.link/n1x966"} target="_blank">
                   Marcar horário <MessageCircle />
                 </Link>
               </Button>

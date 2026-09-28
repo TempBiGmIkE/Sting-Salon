@@ -75,7 +75,7 @@ export default function PiercingSection() {
             variant="outline"
             className="mt-5 text-md border-black text-black cursor-pointer"
           >
-            <Link href={"https://wa.me/351915335220"} target="_blank">
+            <Link href={"https://wa.link/n1x966"} target="_blank">
             {t('piercing-book-btn')} <MessageCircle />
             </Link>
           </Button>
@@ -84,7 +84,7 @@ export default function PiercingSection() {
             variant="link"
             className="mt-5 text-md border-black text-black cursor-pointer"
           >
-            <Link href={"https://www.instagram.com/sattis_studio/"} target="_blank">
+            <Link href={"https://www.instagram.com/Sting_studio/"} target="_blank">
               Instagram <Instagram />
             </Link>
           </Button>

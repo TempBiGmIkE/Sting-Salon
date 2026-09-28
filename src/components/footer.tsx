@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import logo from "@/logos/sattis-logo_wb.png";
+import logo from "@/logos/Sting-logo_wb.png";
 import {
   Calendar,
   Instagram,
@@ -27,7 +27,7 @@ export default function Footer() {
       <div className="mt-16 bg-black px-8 md:px-16 py-20 flex justify-between flex-col md:flex-row gap-12 text-white">
         <div className="flex flex-col gap-8">
           <div>
-            <Image src={logo} alt="Sattis Studio" width={100} />
+            <Image src={logo} alt="Sting Studio" width={100} />
           </div>
           <div className="flex flex-col gap-5">
             <div className="flex gap-3">
@@ -73,14 +73,15 @@ export default function Footer() {
             </Button>
           </div>
           <div className="flex space-x-5">
-            <Link href={"https://wa.me/351915003454"} target="_blank">
+            <Link href={"https://wa.link/n1x966"} target="_blank">
+            {/* https://wa.link/n1x966 */}
               <Button variant="outline">
                 {t("contact-btn")}
                 <MessageCircle />
               </Button>
             </Link>
             <Link
-              href="https://www.instagram.com/sattis_studio/"
+              href="https://www.instagram.com/Sting_studio/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -1,10 +1,10 @@
-# Sattis Studio
+# Sting Studio
 
-![Sattis Studio Logo](public/sattis-logo.png)
+![Sting Studio Logo](public/Sting-logo.png)
 
 ## 📋 Description
 
-Sattis Studio is a modern and responsive website for a beauty studio that offers barbershop, tattoo, aesthetics, and piercing services. The project was developed with Next.js 15 and features an elegant interface with smooth animations and contemporary design.
+Sting Studio is a modern and responsive website for a beauty studio that offers barbershop, tattoo, aesthetics, and piercing services. The project was developed with Next.js 15 and features an elegant interface with smooth animations and contemporary design.
 
 ## ✨ Features
 
@@ -51,8 +51,8 @@ Sattis Studio is a modern and responsive website for a beauty studio that offers
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/sattis-studio.git
-cd sattis-studio
+git clone https://github.com/your-username/Sting-studio.git
+cd Sting-studio
 ```
 
 2. Install dependencies:
@@ -87,11 +87,11 @@ yarn dev
 ## 📁 Project Structure
 
 ```
-sattis-studio/
+Sting-studio/
 ├── public/                 # Static files
 │   ├── imgs/              # Slider images
 │   ├── videos/            # Background videos
-│   └── sattis-logo.png    # Studio logo
+│   └── Sting-logo.png    # Studio logo
 ├── src/
 │   ├── app/               # Next.js App Router
 │   │   ├── layout.tsx     # Main layout
@@ -115,7 +115,7 @@ sattis-studio/
 ## 🎨 Website Sections
 
 1. **Hero** - Background video with booking call-to-action
-2. **About Studio** - Information about Sattis Studio
+2. **About Studio** - Information about Sting Studio
 3. **Barbershop** - Barbershop services
 4. **Tattoos** - Gallery and tattoo information
 5. **Piercings** - Piercing services
@@ -159,4 +159,4 @@ The project is configured for deployment on Vercel:
 This project is under the MIT license. See the `LICENSE` file for more details.
 ---
 
-Developed with ❤️ for Sattis Studio 
+Developed with ❤️ for Sting Studio 

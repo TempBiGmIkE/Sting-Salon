@@ -71,7 +71,7 @@ export default function TattooSection() {
             <div className="flex flex-col gap-2 border-l-2 border-black pl-4">
             <p className="text-sm font-semibold uppercase tracking-wide">Brenda Turin — Guest</p>
             <p className="text-sm text-gray-600">
-              A Brenda estará a tatuar como convidada na Sattis Studio por tempo limitado.
+              A Brenda estará a tatuar como convidada na Sting Studio por tempo limitado.
               Aproveita para marcares a tua sessão com ela diretamente.
             </p>
             <Button
@@ -93,7 +93,7 @@ export default function TattooSection() {
                 variant="outline"
                 className="mt-2 text-md border-black text-black cursor-pointer"
               >
-                <Link href={"https://wa.me/351915335220"} target="_blank">
+                <Link href={"https://wa.link/n1x966"} target="_blank">
                   {t('tattoo-book-btn')} <MessageCircle />
                 </Link>
               </Button>
@@ -103,7 +103,7 @@ export default function TattooSection() {
                 className="mt-2 text-md border-black text-black cursor-pointer"
               >
                 <Link
-                  href={"https://www.instagram.com/sattis_studio/"}
+                  href={"https://www.instagram.com/Sting_studio/"}
                   target="_blank"
                 >
                   Instagram <Instagram />

@@ -87,7 +87,7 @@ export default function CategoryStep({
                   variant="outline"
                   className="border-gray-700 bg-gray-900 hover:bg-accent hover:text-accent-foreground"
                 >
-                  <Link href={"https://wa.me/351915335220"} target="_blank">
+                  <Link href={"https://wa.link/n1x966"} target="_blank">
                     Tati Zaqui
                     <MessageCircle />
                   </Link>
