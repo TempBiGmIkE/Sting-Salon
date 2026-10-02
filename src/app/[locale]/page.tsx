@@ -20,6 +20,30 @@ export default function Home() {
 
   return (
     <main className="overflow-hidden">
+      <button
+        id="Anywhere_button_iframe"
+        type="button"
+        className="anywhere-book-now-button"
+        style={{
+          backgroundColor: "#000",
+          color: "#fff",
+          border: "none",
+          padding: "12px 18px",
+          fontSize: "14px",
+          fontWeight: 600,
+          borderRadius: "6px",
+          cursor: "pointer",
+          position: "fixed",
+          right: 0,
+          top: "25%",
+          zIndex: 9999,
+          transform: "translate(30%, 0) rotate(-90deg)",
+        }}
+        data-booking-url="https://stgsaloon.setmore.com"
+        data-new-tab="true"
+      >
+        Book now
+      </button>
       <div id="inicio" className="scroll-mt-5">
         <Suspense fallback={null}>
           <Hero />

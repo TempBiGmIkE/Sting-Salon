@@ -62,27 +62,16 @@ export default function RootLayout({
     <html lang="pt-PT">
       <head>
         <link rel="canonical" href="https://Sting.me" />
-        <Script
-          id="setmore-book-now-script"
-          src="https://assets.setmore.com/integration/book-now/live/v1/anywhere-book-now.js"
-          strategy="beforeInteractive"
-        />
       </head>
       <body
         className={`${bricolageFont.variable} antialiased`}
         suppressHydrationWarning
       >
-        <button
-          id="Anywhere_button_iframe"
-          type="button"
-          className="sr-only anywhere-book-now-button"
-          data-booking-url="https://stgsaloon.setmore.com"
-          data-new-tab="false"
-          aria-hidden="true"
-          tabIndex={-1}
-        >
-          Book now
-        </button>
+        <Script
+          id="setmore-book-now-script"
+          src="https://assets.setmore.com/integration/book-now/live/v1/anywhere-book-now.js"
+          strategy="afterInteractive"
+        />
         <ConsentManagerProvider
           options={{
             mode: "c15t",
